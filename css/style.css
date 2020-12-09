@@ -1,0 +1,350 @@
+
+header
+{
+    height: 25vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 233, 233);
+    width: 100%;
+}
+.par-a
+{
+    padding: 0;
+    margin: 0 auto;   
+    height: 25vh;
+}
+
+/*********** zone logo ***********/
+.par-a1
+{
+    padding:2% 0;
+    margin: 0;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-end;
+}
+.logo-1
+{
+    padding: 0;    
+}
+.jaune
+{
+    border: solid 4px rgb(255, 217, 0);
+    border-image: linear-gradient(rgb(235, 233, 233), rgb(255, 217, 0)) 5;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+}
+.slogan-1
+{
+    height: 20%;
+    font-size: 1.5vw;   
+}
+.slogan-1 span
+{
+    color: rgb(255, 217, 0);
+}
+
+/***************** zone navigation ***************/
+.par-a2
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-between;
+    margin :0;
+}
+ header a
+{   
+    color: black;
+    text-decoration: none; 
+}
+header a:hover
+{
+    color: white;
+    text-decoration: none; 
+}
+
+/*********** Compte + panier *************/
+ .par-a2-1
+{
+    display: flex;
+    border: 1px solid;
+    border-radius: 2px;
+    width: 100%;
+    height: 7vh;
+    justify-content: space-between;
+    padding: 1%;
+    font-size: 1.3vw;
+    margin: 5% 0 0 0 ;
+    background-color: rgb(221, 218, 218);
+}
+.icone-a2
+{
+    height: 6vh;
+}
+
+/**************** Bonjour **********************/
+.bonjour
+{
+    text-align: right; 
+    font-size: 2vw;
+}
+
+/*************** barre de navigation **************/
+.par-a2-2
+{
+    display: flex;
+    height: 5vh;
+    margin: 0;
+    width: 80%;
+    margin: 0;
+}
+.clear
+{
+    margin: 0;
+    padding: 0;
+    border: rgb(173, 172, 172) solid 1px;
+    background-color: rgb(173, 172, 172);
+    width: 1px;
+}
+nav a
+{
+    margin: 0 auto;
+    font-size: 1.4vw;
+}
+
+/************ corps  ****************/
+/* *************bandeau************** */
+body
+{
+    background-color: rgb(46, 45, 45);
+}
+main
+{
+    background-color: rgb(235, 233, 233); 
+    margin: 2vh auto 0;
+    padding: 0 0 6% 0 !important;
+}
+.bandeau
+{
+    height: 40vh;   
+}
+
+/*********** catalogue ****************/
+.catalogue
+{   
+    width: 80%;
+    margin: auto ;
+    padding: 3% 0;
+}
+.prod-ab
+{
+    height: 60vh;
+    margin: 0  ;   
+}
+.prod-a
+{
+   margin: 0 0 7vh 0;
+   width: 30%;
+}
+.prod-a img
+{
+    margin: 0;   
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgb(148, 147, 147),-5px -5px 5px rgb(148, 147, 147);
+}
+.reduc
+{
+    height: 15%;
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    padding: 2% 4%;
+    font-size: 2vw;
+    box-shadow: inset 2px 2px 2px black,inset -2px -2px 5px rgb(150, 149, 149);
+    position: absolute;
+    top: 1.5vh; left: 75%;
+}
+article
+{
+    margin: 0;
+    font-size: 1.3vw;
+    text-align: center;
+    text-justify: center;
+    width: 100%;
+    height: 5%;
+    position: relative;
+    bottom: 8.5%; left: 0;
+}
+/********** vente *************/
+.vente
+{
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    height: 15%;
+    margin: 0;
+}
+.prod-a a
+{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 50%;
+    height: 90%;
+    text-align: center;
+    font-size: 1.6vw;
+    border-radius: 5px;
+    padding: auto;
+}
+.prod-a a:hover
+{
+    background-color: grey;
+    box-shadow: 3px 3px 6px rgb(90, 89, 89) ;
+    border: 1px grey;
+}
+.prix-barre
+{
+    font-weight: bold;
+    text-decoration: line-through ;
+    width: 20%;
+    align-self: center;
+    text-align: right;
+    font-size: 1.7vw;
+}
+.prix 
+{
+    font-weight: bold;
+    color:  rgb(255, 217, 0);
+    font-size: 4vw;
+    width: 30%;
+    text-align: right;
+    align-self: center;
+    border: solid 3px black;
+    border-image: linear-gradient(0.25turn,rgb(235, 233, 233), black) 1;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+}
+/********** footer ************/
+.deco
+{
+    margin:0;
+    background-color: rgb(78, 78, 78);
+    height: 4vh;
+    width: 100;
+    position: relative;
+    bottom: 8vh; left: 0;
+}
+footer
+{
+    background-color: rgb(78, 78, 78);
+    height: 60vh;
+    position: relative;
+    bottom: 4vh; left: 0;
+}
+
+/*********** NAVIGATION2 ******************/
+.nav2
+{
+    border: solid grey 1px;
+    border-radius: 5px;
+    background-color: rgb(235, 233, 233);
+    width: 80%;
+    padding: 2%;
+    position: relative;
+    bottom: 4vh; left: 0;
+    margin: 0;
+    height: 10%;
+}
+.nav2 a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4vw;
+    text-align: center;
+}
+.carre
+{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(173, 172, 172);
+    align-self: center;
+}
+
+/****************** FOOTER 1************************ */
+
+.footer1
+{
+    background-color: rgb(78, 78, 78);
+    margin: 0;
+    padding:  0;  
+    height: 30%;
+}
+.vignette
+{
+    background-color: rgb(78, 78, 78);
+    height: 35vh;
+    padding: 0;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.vignette p
+{
+    width: 100%;
+    font-size: 1.2vw;
+    color: white;
+    text-align: justify;
+    text-justify: center;
+    margin: 0;
+}
+.vignette img
+{
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
+}
+
+/*********** footer2 ******************/
+
+.footer2
+{
+    padding: 5% 0;
+    margin: 0 auto 0;  
+    height: 10vh;
+    width: 40%;
+}
+.footer2 img
+{
+    height: fit-content;
+    width: fit-content;
+    padding: 0 auto;  
+}
+.footer2 a
+{
+    margin :0;
+    padding: 0;
+    text-align: center;
+}
+/************* footer3 *****************/
+
+.footer3 
+{
+    height: 1%;
+    padding: 0;
+    margin: 0;
+    /* position: relative;
+    bottom: 4vh; left: 0; */
+}
+.footer3 p
+{
+    padding: 0;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
